@@ -659,14 +659,16 @@ div#portfoliolist {
 	color: #F0C514;;
 
 }
+
 .about-imag {
 	float: left;
-	width:30px;
+	width:27%;
 	margin-right:5%
 }
 .about-imag img {
 	border: 2px solid #F0C514;
 	border-radius: 103px;
+	width: 50px;
 }
 .about-text {
 	float: left;
