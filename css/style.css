@@ -668,7 +668,7 @@ div#portfoliolist {
 .about-imag img {
 	border: 2px solid #F0C514;
 	border-radius: 103px;
-	width: 150px;
+	width: 25%;
 }
 .about-text {
 	float: left;
