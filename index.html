@@ -1,254 +1,199 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-<title>DPACS</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="DPACS, Door delivery of acute prescriptions and chronic medication services, Luzuko Majokweni" />
-<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-<link href="css/bootstrap.css" rel='stylesheet' type='text/css'/>
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />	    
-	    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="js/jquery.min.js"></script>
-<link href='http://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-<script type="text/javascript" src="js/move-top.js"></script>
-<script type="text/javascript" src="js/easing.js"></script>
- <script type="text/javascript">
-		jQuery(document).ready(function($) {
-			$(".scroll").click(function(event){		
-				event.preventDefault();
-				$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
-			});
-		});
-	</script>
-	 <!------ Light Box ------>
-    <link rel="stylesheet" href="css/swipebox.css">
-    <script src="js/jquery.swipebox.min.js"></script> 
-    <script type="text/javascript">
-		jQuery(function($) {
-			$(".swipebox").swipebox();
-		});
-	</script>
-    <!------ Eng Light Box ------>	
-
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="DPACS is a website that allows you to recieve quality health at the comfort of your own home. Recieve doctors visits or medication anywhere..">
+    <title>DPACS | Your health </title>
+    
+    <link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/pure-min.css" integrity="sha384-" crossorigin="anonymous">
+    
+    <!--[if lte IE 8]>
+        <link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/grids-responsive-old-ie-min.css">
+    <![endif]-->
+    <!--[if gt IE 8]><!-->
+        <link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/grids-responsive-min.css">
+    <!--<![endif]-->
+    
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+    
+        <!--[if lte IE 8]>
+            <link rel="stylesheet" href="css/layouts/marketing-old-ie.css">
+        <![endif]-->
+        <!--[if gt IE 8]><!-->
+            <link rel="stylesheet" href="css/layouts/marketing.css">
+        <!--<![endif]-->
 </head>
 <body>
-<div class="header" id="head">	
-      <div class="container"> 
-         <div class="header-top">
-      		 <div class="logo">
-				<a href="index.html"><img src="images/logo.png" alt=""/></a>
-			 </div>
-		   <div class="top-menu">
-		   	<span class="menu"> </span>
-			<ul>
-			 	<nav class="cl-effect-5">
-				<li><a class="active" href="#home" class="scroll"><span data-hover="Home">home</span></a></li>
-				<li><a href="#services" class="scroll"><span data-hover="services">services</span></a></li>
-				<li><a href="#work" class="scroll"><span data-hover="request"><span>request</span></a></li>
-				<li><a href="#about" class="scroll"><span data-hover="about">about</span></a></li>
-				<li><a href="#contact" class="scroll"><span data-hover="join">join</span></a></li>
-				</nav>
-			 </ul>
-			 </div>
-			 <!--script-nav-->
-		 <script>
-		 $("span.menu").click(function(){
-		 $(".top-menu ul").slideToggle("slow" , function(){
-		 });
-		 });
-		 </script>
-			<div class="clearfix"></div>
-		 </div>  
-		  <div class="index-banner">
-       	   <div class="wmuSlider example1">
-			   <div class="wmuSliderWrapper">
-				   <article style="position: absolute; width: 100%; opacity: 0;"> 
-				   	<div class="banner-wrap">
-				   	       	<div class="banner_center">
-				   		 		<h1>Get a doctor</h1> 
-				   		 		<h2>in the comfort of<span> your own home</span></h2>
-				   		 		<h2>For real!</h2>
-				   		 		</div>
-				   		 </div>
-					</article>
-				   <article style="position: relative; width: 100%; opacity: 1;"> 
-				   	   	<div class="banner-wrap">
-				   	      <div class="banner_center">
-				   		 		<h1>Get  medication</h1> 
-				   		 		<h2>delivered <span>to your home</span></h2>
-				   		 		<h2>in minutes</h2>
-				   		 		</div>
-				   		  </div>
-				   </article>
-				   <article style="position: absolute; width: 100%; opacity: 0;">
-				   	  	<div class="banner-wrap">
-				   	       <div class="banner_center">
-				   		 		<h1>You a doctor</h1> 
-				   		 		<h2>or patient <span> register here </span></h2>
-				   		 		<h2>to join</h2>
-				   		 		</div>
-				   		 </div>
-					 </article>
-				 </div>
-				
-            </div>
-            <script src="js/jquery.wmuSlider.js"></script> 
-			  <script>
-       			$('.example1').wmuSlider();         
-   		     </script> 	           	      
-      </div>
-	 </div>     
-	</div>
-	<div class="content">
-		<div class="services-section" id="services">
-			<div class="container"> 
-			<div class="services-header">
-				<h3><span>[</span> services <span>]</span></h3>
-					<p>Let DPACS help you by introducing you to convinient health care. We specialise in hooking up you with a doctor in minutes at the comfort of your own home or whereever you are! Not only that! We can get your medication to you right where you are and as you want it.</p><br>
-					<p>It is easy to join! simply sign up as either a patient or a doctor by filling out the form below. You will be sent out a form to fill and welcome to convinient health care.</p><br>
-<<<<<<< HEAD
-					<p>Paying is easy! You only pay when you request and you can use your medical aid, your card or pay cash. </p><br>
-=======
-					<p>PAying is easy! You only pay when you request and you can use your medical aid, your card or pay cash. </p><br>
->>>>>>> refs/remotes/origin/master
-					<p>We get a doctor to you in less than 60 minutes</p>
-			</div>
-			<div class="services-sectiongrids">
-				<div class="col-md-4 services-grid">
-					<img src="images/img1.png" alt=""/>
-					<h4>get a doctor</h4>
-					<p>We can get a doctor to consult you at the comfort of your own home or work. That is health service at your door step.</p>
-				</div>
-				<div class="col-md-4 services-grid">
-					<img src="images/img2.png" alt=""/>
-					<h4>get medication</h4>
-					<p>You can get medication on delivered to you in a matter of moments. No more travelling and queing at pharmacies.</p>
-				</div>
-				<div class="col-md-4 services-grid">
-					<img src="images/img3.png" alt=""/>
-					<h4>join</h4>
-					<p>It is easy to join. Fill out the form below and a form will be sent for you to fill. After emailing the form with a few required documents, you will be sent a membership number. Welcome to convinient health care!</p>
-				</div>
-				<div class="clearfix"></div>
-				<div class="arrow1">
-					<a href="#work" class="scroll"><img src="images/arrow1.png" alt=""/></a>
-					</div>
-		</div>
-		</div>
-		</div>
-		<div class="works-section" id="work" id="work">
-		   <div class="works-header">
-				<h3><span>[</span> request <span>]</span></h3>
-					<p>To request a doctor or a patient simply fill out the form below and provide doctors number if you are requesting a doctor or your medication list of you are requesting medication.</p>
-			</div>
-			<div class="contact">
-			<div class="col-md-4 contactgrid">
-				<input type="text" class="text" value=" Membership No." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = ' name';}">
-				</div>
-				<div class="col-md-4 contactgrid">
-				<input type="text" class="text" value="email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'email';}">
-				</div>
-				<div class="col-md-4 contactgrid">
-				<input type="text" class="text" value="phone" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'phone';}">
-				</div>
-				<div class="col-md-8 contactgrid1">
-				<textarea onfocus="if(this.value == 'Your Message') this.value='';" onblur="if(this.value == '') this.value='Your Message';" >Doctors Name/ Medication List</textarea>
-				</div>
-				<div class="col-md-4 contactgrid2">
-				<input type="button" value="[request]">
-			   </div>
-			   <div class="clearfix"></div>
-				</div>
-	</div>
-	<!-- portfolio-section-ends -->
-	<div class="about-section" id="about" id="about">
-	<div class="container">
-		<div class="about-header">
-			<h3><span>[</span> about <span>]</span></h3>
-			<div class="about-imag">
-			<img src="images/pic-9.jpeg" alt=""/>
-			</div>
-			<div class="about-text">
-					<p>DPACS was founded by Luzuko Majokweni who saw the need for health care to be easily accessible to patients at anytime, anywhere, without the need to go queue at long lines in the doctor’s consultation rooms and the hustle of going to queue at long lines in traditional pharmacies to get medication.</p> 
-					<br>
 
-					<h3>Why use <span>[</span> DPACS <span>]</span></h3><br>
-					<p>
-						- Locate a doctor in minutes. <br>
-						- Easily accessible and convenient<br>
-						- Getting the best medical care<br>
-						- Counseling about your illness and medication at the comfort of your own home or work<br>
-						- Easy payments (Medical Aid/ EFT or Cash)<br>
-						- Doctor patient confidentiality maintained at all times.<br>
-					</p>
-			</div>
-			<div class="clearfix"></div>
-			</div>
-			
-	<div class="arrow1">
-	<a href="#contact" class="scroll"><img src="images/arrow1.png" alt=""/></a>
-					</div>
-	</div>
-	</div>
-	</div>
-	<div class="footer-section" id="contact" id="contact">
-			<div class="container"> 
-			<div class="contact-header">
-				<h3><span>[</span> Join <span>]</span></h3>
-					<p><span>[</span> Patients <span>]</span> to join, fill out the form below and a form will be sent to you to fill. Email the form with your ID copy and proof of residential address. <span>[</span> Doctors <span>]</span> fill out the form below and a form will be sent to you. Fill the form and email it back</p>
-			</div>
-			<div class="social-icon">
-				<a href="#"><i class="icon1"></i></a>
-				<a href="#"><i class="icon2"></i></a>
-				<a href="#"><i class="icon3"></i></a>
-				<a href="#"><i class="icon4"></i></a>
-			</div>
-			<div class="contact">
-			<div class="col-md-4 contactgrid">
-				<input type="text" class="text" value=" name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = ' name';}">
-				</div>
-				<div class="col-md-4 contactgrid">
-				<input type="text" class="text" value="email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'email';}">
-				</div>
-				<div class="col-md-4 contactgrid">
-				<input type="text" class="text" value="phone" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'phone';}">
-				</div>
-				<div class="col-md-8 contactgrid1">
-				<textarea onfocus="if(this.value == 'Your Message') this.value='';" onblur="if(this.value == '') this.value='Your Details';" >Are you patient or a doctor?</textarea>
-				</div>
-				<div class="col-md-4 contactgrid2">
-				<input type="button" value="[join]">
-			   </div>
-			   <div class="clearfix"></div>
-				</div>
-				<div class="footer-bottom">
 
-					<p>DPACS | Copyright &copy; 2017  All rights  Reserved | Developed by<a href="http://mpoconsulting.co.za" target="Mpo Consulting">Mpo Consulting</a></p>
 
-					</div>
-					<script type="text/javascript">
-						$(document).ready(function() {
-							/*
-							var defaults = {
-					  			containerID: 'toTop', // fading element id
-								containerHoverID: 'toTopHover', // fading element hover id
-								scrollSpeed: 1200,
-								easingType: 'linear' 
-					 		};
-							*/
-							
-							$().UItoTop({ easingType: 'easeOutQuart' });
-							
-						});
-					</script>
-				<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+
+
+
+
+
+
+<div class="header">
+    <div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
+        <a class="pure-menu-heading" href="">DPACS</a>
+
+        <ul class="pure-menu-list">
+            <li class="pure-menu-item"><a href="#aboutone" class="pure-menu-link">About</a></li>
+            <li class="pure-menu-item"><a href="#signupone" class="pure-menu-link">Sign Up</a></li>
+            <li class="pure-menu-item"><a href="#signupone" class="pure-menu-link">Request</a></li>
+            <li class="pure-menu-item"><a href="#contactone" class="pure-menu-link">Contact</a></li>
+        </ul>
+    </div>
 </div>
 
-		</div>		
-	</div>
-	
-	
+<div class="splash-container" id="homeone">
+    <div class="splash" >
+        <h1 class="splash-head" >Health at your convinience</h1>
+        <p class="splash-subhead">
+            Get quality health today at your convinience | Get doctors visits or medication at your convinience
+        </p>
+        <p>
+            <a href="#signupone" class="pure-button pure-button-primary">Sign Up</a>
+        </p>
+        <p>
+            <a href="#signupone" class="pure-button pure-button-primary">Request</a>
+        </p>
+    </div>
+</div>
+
+<div class="content-wrapper" id="aboutone">
+    <div class="content">
+        <h2 class="content-head is-center">Get quality health service at your convinience.</h2>
+
+        <div class="pure-g">
+            <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+
+                <h3 class="content-subhead">
+                    <i class="fa fa-rocket"></i>
+                    Get your medication and prescriptions delivered to you.
+                </h3>
+                <p>
+                    Need medication? Get it delivered to you. Have a prescrition? Get it delivered to you.
+                </p>
+            </div>
+            <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+                <h3 class="content-subhead">
+                    <i class="fa fa-mobile"></i>
+                    Get a doctor to visit you at your convinience.
+                </h3>
+                <p>
+                    Need a doctor? Get a doctor to visit you at your home, work or anywhere you are. simply send a request and a doctor will come.
+                </p>
+            </div>
+            <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+                <h3 class="content-subhead">
+                    <i class="fa fa-th-large"></i>
+                    Easy payment
+                </h3>
+                <p>
+                    Pay easly with your medical aid, card or with cash. It is that simple.
+                </p>
+            </div>
+            <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+                <h3 class="content-subhead">
+                    <i class="fa fa-check-square-o"></i>
+                    Join
+                </h3>
+                <p>
+                   Simply fill the easy form and you will be contacted with your membership number. Simply!
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="ribbon l-box-lrg pure-g" id="signupone">
+        <div class="l-box-lrg is-center pure-u-1 pure-u-md-1-2 pure-u-lg-2-5">
+            <div>
+    <style scoped>
+
+        
+        .button-warning,
+        .button-secondary {
+            color: white;
+            border-radius: 4px;
+            text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+        }
+
+        
+
+        .button-warning {
+            background: rgb(242, 197, 0); /* this is not an orange */
+        }
+
+        .button-secondary {
+            background: rgb(66, 184, 221); /* this is a light blue */
+        }
+
+    </style>
+
+    
+    <a href="applications.html"><button class="button-warning pure-button" >Join</button></a>
+    <a href="requests.html"><button class="button-secondary pure-button" >Request</button></a>
+</div>
+        </div>
+        <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-3-5">
+
+            <h2 class="content-head content-head-ribbon">Join or Request.</h2>
+
+            <p>
+                It's easy to join and enjoy great health. Simply click on Join and fill thea easy form. We will contact you with your membership number and you can enjoy good health <span style="color: #F2C500 ">|</span>  | <span style="color: #F2C500 "> It's easy to request medication or to request a doctor. Simply click Request and fill in the request form to request a doctor or medication.</span>
+            </p>
+        </div>
+    </div>
+
+    <div class="content" id="contactone">
+        <h2 class="content-head is-center">Feel free to contact us.</h2>
+
+        <div class="pure-g">
+            <div class="l-box-lrg pure-u-1 pure-u-md-2-5">
+                <form id="gform" method="POST" class="pure-form" action="https://script.google.com/macros/s/AKfycbyldGwzuWUrrBWl-aE0UdieF32YXdY0lNFjaTAuwWCphWir6EI/exec">
+                    <fieldset class="pure-group">
+                        <input type="text" class="pure-input-1-2" placeholder="Name">
+                        <input type="email" class="pure-input-1-2" placeholder="Email">
+                    </fieldset>
+
+                    <fieldset class="pure-group">
+                        <input type="text" class="pure-input-1-2" placeholder="Subject">
+                        <textarea class="pure-input-1-2" placeholder="Message"></textarea>
+                    </fieldset>
+
+                    <button type="submit" class="pure-button pure-input-1-2 pure-button-primary">Send</button>
+                </form>
+            </div>
+
+            <div class="l-box-lrg pure-u-1 pure-u-md-3-5">
+                <h4>Contact Us</h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat.
+                </p>
+
+                <h4>More Information</h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footer l-box is-center">
+        DPACS
+    </div>
+
+</div>
+
+
+
+
 </body>
 </html>
